@@ -993,6 +993,10 @@ text-align: left;
     margin-bottom: 20px;
     background-color: var(--thire-color);
     border-color: #999999;
+    color: var(--color-white);
+}
+input placeholder {
+    color: var(--color-white);
 }
 .wrapper-btn {
     display: flex;
@@ -1011,8 +1015,7 @@ text-align: left;
     display: inline-block;
 }
 .btn-2:hover {
-    background-color: var(--color-white);
-    color: var(--blue-color);
+    box-shadow: 0px 20px 35px -10px rgba(255, 45, 45, 0.5);
     transition: .5s ease;
 }
 
@@ -1417,4 +1420,170 @@ h2 {
     letter-spacing: -0.31px;
     text-align: center;
     margin-top: 12.7px;
+}
+
+.main-img3 {
+    padding: 72.5px 395px;
+    background-image: url('../images/png/cherrydeck-05gac-Qn0k4-unsplash\ 1\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    color: var(--thire-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* main2 section */
+.main2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main2-title1 {
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-left: 461.5px;
+    margin-bottom: 45.37px;
+    color: var(--thire-color);
+    
+}
+.main2-title {
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: var(--thire-color);
+    margin-right: 100px;
+    padding: 8px 421px;
+    margin-left: 216px;
+}
+.main2-inner {
+    background: linear-gradient(0deg, #FFD773, #FFD773), #F4F7FE;
+    border-radius: 5px;
+}
+.main2-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main2__item-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 150px;
+}
+.main2__item-title h1 {
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--thire-color);
+}
+.main2__item-title p {
+    width: 411px;
+    height: 20px;
+    font-family: var(--gilroy-fonts);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.83px;
+    color: var(--thire-color);
+    margin-bottom: 31.5px;
+    margin-right: 292.5px;
+}
+.main2__div {
+    width: 2px;
+    height: 21px;
+    background-color: var(--navbar-color);
+    margin-right: 30.5px;
+}
+.main2-text {
+    width: 411px;
+    height: 76px;
+    color: var(--thire-color);
+    display: inline-block;
+    font-family: var(--gilroy-fonts);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.83px;
+}
+.main3-text {
+    width: 411px;
+    height: 38px;
+    color: var(--thire-color);
+    display: inline-block;
+    font-family: var(--gilroy-fonts);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.83px;
+}
+.main4-text {
+    width: 411px;
+    height: 19px;
+    color: var(--thire-color);
+    display: inline-block;
+    font-family: var(--gilroy-fonts);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.83px;
+}
+.main2-div1 {
+    width: 1299px;
+    height: 1px;
+    background-color: var(--navbar-color);
+    margin-bottom: 19.5px;
+}
+
+/* heror2 section */
+.heror1 {
+    background: linear-gradient(0deg, #F5F7F9, #F5F7F9), #ECE8E5;
+}
+.heror1-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heror1-text {
+    display: flex;
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 45.26px;
+    margin-top: 80px;
+    color: var(--thire-color);
+}
+.heror1-inner {
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #F4F7FE;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px 0px #0000000D;
+    margin-bottom: 80px;
+}
+.heror1-wrapper {
+    padding: 20px 100px 40px 100px;
+}
+.heror1-wrapper p {
+    width: 782.43px;
+    font-family: var(--gilroy-fonts);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23.2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.heror1-wrapper h1 {
+    font-family: var(--fonts);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 100px;
+    color: var(--thire-color);
 }
